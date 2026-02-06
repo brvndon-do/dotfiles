@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "phase",
+  "editor.fontFamily": "'Monaspace Argon', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.defaultFormatter": "ms-dotnettools.csharp",
+  "workbench.colorTheme": "Atom One Dark",
+  "terminal.integrated.fontFamily": "Monaspace Argon",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask",
+  ],
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
+  "editor.stickyScroll.enabled": false,
+  "python.defaultInterpreterPath": "/bin/python",
+  "chat.viewSessions.orientation": "stacked",
+}
