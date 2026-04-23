@@ -7,24 +7,48 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "show_signature_help_after_edits": true,
+  "auto_signature_help": false,
+  "edit_predictions": {
+    "mode": "subtle",
+    "copilot": {
+      "enable_next_edit_suggestions": false,
+    },
+    "provider": "copilot",
+  },
   "extend_comment_on_newline": false,
   "agent_servers": {
     "github-copilot-cli": {
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "buffer_font_family": "Monaspace Neon",
   "agent": {
+    "sidebar_side": "right",
+    "dock": "right",
+    "default_profile": "ask",
     "default_model": {
+      "effort": "high",
       "provider": "copilot_chat",
-      "model": "gpt-4.1",
-      "enable_thinking": false
+      "model": "gpt-5.3-codex",
+      "enable_thinking": false,
     },
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "show_edit_predictions": false,
-  "auto_signature_help": true,
   "ui_font_size": 16,
   "buffer_font_size": 16.0,
   "theme": {
