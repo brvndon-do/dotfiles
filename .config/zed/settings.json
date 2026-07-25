@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "debugger": {
+    "dock": "left"
+  },
+  "cli_default_open_behavior": "new_window",
   "project_panel": {
     "dock": "left"
   },
@@ -22,16 +26,22 @@
   "show_signature_help_after_edits": true,
   "auto_signature_help": false,
   "edit_predictions": {
+    "allow_data_collection": "no",
     "mode": "subtle",
     "copilot": {
       "enable_next_edit_suggestions": false,
     },
-    "provider": "copilot",
+    "provider": "zed",
   },
   "extend_comment_on_newline": false,
   "agent_servers": {
-    "github-copilot-cli": {
-      "type": "registry",
+    "claude-acp": {
+      "default_config_options": {
+        "effort": "default",
+        "fast": false,
+        "model": "opus"
+      },
+      "type": "registry"
     },
   },
   "buffer_font_family": "Monaspace Neon",
@@ -42,8 +52,8 @@
     "default_model": {
       "effort": "high",
       "provider": "copilot_chat",
-      "model": "gpt-5.3-codex",
-      "enable_thinking": false,
+      "model": "claude-sonnet-4.6",
+      "enable_thinking": true,
     },
     "favorite_models": [],
     "model_parameters": [],
