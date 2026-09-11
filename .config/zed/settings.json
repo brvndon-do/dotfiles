@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "show_count_badge": false
+  },
+  "completion_detail_alignment": "left",
+  "code_lens": "on",
   "tab_bar": {
     "show_pinned_tabs_in_separate_row": false
   },
@@ -15,21 +20,24 @@
     "git_status": true,
     "show_diagnostics": "all"
   },
-  "debugger": {
-    "dock": "left"
-  },
   "cli_default_open_behavior": "new_window",
+  "debugger": {
+    "dock": "right"
+  },
   "project_panel": {
-    "dock": "left"
+    "default_width": 300.0,
+    "git_status_indicator": true,
+    "diagnostic_badges": true,
+    "bold_folder_labels": false
   },
   "outline_panel": {
-    "dock": "left"
+    
   },
   "collaboration_panel": {
-    "dock": "left"
+    
   },
   "git_panel": {
-    "dock": "left"
+    
   },
   "show_signature_help_after_edits": true,
   "auto_signature_help": false,
@@ -45,7 +53,8 @@
   "agent_servers": {
     "claude-acp": {
       "default_config_options": {
-        "effort": "default",
+        "mode": "auto",
+        "effort": "high",
         "fast": false,
         "model": "opus"
       },
@@ -54,8 +63,7 @@
   },
   "buffer_font_family": "Monaspace Neon",
   "agent": {
-    "sidebar_side": "right",
-    "dock": "right",
+    "dock": "left",
     "default_profile": "ask",
     "default_model": {
       "effort": "high",

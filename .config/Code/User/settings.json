@@ -2,7 +2,6 @@
   "editor.formatOnSave": true,
   "editor.cursorBlinking": "phase",
   "editor.fontFamily": "'Monaspace Neon', 'Droid Sans Mono', 'monospace', monospace",
-  "editor.defaultFormatter": "ms-dotnettools.csharp",
   "terminal.integrated.fontFamily": "Monaspace Neon",
   "cmake.pinnedCommands": [
     "workbench.action.tasks.configureTaskRunner",
@@ -19,4 +18,11 @@
   "python.defaultInterpreterPath": "/bin/python",
   "chat.viewSessions.orientation": "stacked",
   "workbench.colorTheme": "Atom One Dark",
+  "claudeCode.preferredLocation": "panel",
+  "terminal.integrated.initialHint": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.experimental.modernUI": true,
+  "editor.defaultFormatter": "ms-dotnettools.csharp",
+  "workbench.sideBar.location": "right",
+  "claudeCode.hideOnboarding": true,
 }
